@@ -6,7 +6,7 @@ GO
 -- =============================================
 -- Author:		Ahmad Raeiji
 -- Create date: 2021-06-01
--- Description:	Release SQL Server Engin Memory Usage
+-- Description:	Release SQL Server Engine Memory Usage
 -- =============================================
 create PROCEDURE AR_ReleaseSQLServerUsedMemory
 	@DesiredMaxMemory bigint, -- Desired Max Memory (MB)
