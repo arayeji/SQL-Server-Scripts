@@ -6,9 +6,9 @@ GO
 -- =============================================
 -- Author:		Ahmad Raeiji
 -- Create date: 2021-06-01
--- Description:	Decreasing SQL Server Engin Memory Usage
+-- Description:	Release SQL Server Engin Memory Usage
 -- =============================================
-create PROCEDURE AR_DecreaseSQLServerUsedMemory
+create PROCEDURE AR_ReleaseSQLServerUsedMemory
 	@DesiredMaxMemory bigint, -- Desired Max Memory (MB)
 	@DecreaseBy int = 1024 -- The memory amount (MB) that will decrease in each step.
 AS
