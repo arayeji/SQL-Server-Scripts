@@ -6,7 +6,7 @@ GO
 -- =============================================
 -- Author:		Ahmad Raeiji
 -- Create date: 2021-06-01
--- Description:	Decreasing SQL Server Engin Memory Usage
+-- Description:	Decreasing SQL Server Engine Memory Usage
 -- =============================================
 create PROCEDURE AR_DecreaseSQLServerUsedMemory
 	@DesiredMaxMemory bigint, -- Desired Max Memory
