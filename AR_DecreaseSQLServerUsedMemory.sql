@@ -6,11 +6,11 @@ GO
 -- =============================================
 -- Author:		Ahmad Raeiji
 -- Create date: 2021-06-01
--- Description:	Decreasing SQL Server Engine Memory Usage
+-- Description:	Decreasing SQL Server Engin Memory Usage
 -- =============================================
 create PROCEDURE AR_DecreaseSQLServerUsedMemory
-	@DesiredMaxMemory bigint, -- Desired Max Memory
-	@DecreaseBy int = 102400 -- The memory amount that will decrease in each step.
+	@DesiredMaxMemory bigint, -- Desired Max Memory (MB)
+	@DecreaseBy int = 1024 -- The memory amount (MB) that will decrease in each step.
 AS
 BEGIN
 	declare @CurrentMaxMemory bigint
